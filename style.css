@@ -1,0 +1,89 @@
+body {
+  background: #FBFFFE;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #492C1D;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 1px;
+  color: #4A8C69;
+}
+
+h1 {
+  color: #58728E;
+}
+
+p {
+  color: #492C1D;
+}
+
+a {
+  text-decoration: none;
+  color: #492C1D;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+li {
+  color: #492C1D
+}*/
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px auto;
+}
+
+.card {
+    width: 800px;
+    padding: 10px;
+    background: #B6D6CC;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#face {
+  /*margin-top: 20px;*/
+  width: 150px;
+  height: 150px;
+  border-radius: 750px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+/*.text-center {
+  text-align: center;
+}*/
+
+.list-inline > li {
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+ padding-left: 0px;
+ font-size: 20px
+}
