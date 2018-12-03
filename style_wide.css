@@ -32,10 +32,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/*
-li {
-  color: #492C1D
-}*/
+.side-image {
+    visibility: collapse;
+}
 
 table {
   font-weight: 300;
@@ -44,22 +43,26 @@ table {
   text-align: center;
 }
 
+td {
+  width: 50%;
+}
+
 .my-container {
-    width: 860px;
+    width: 100%;
     margin: auto;
 }
 
 .card {
-    width: 800px;
+    width: 80%;
     padding: 10px;
     background: white;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
 .image {
-    max-width: 400px;
+    max-width: 100%;
     padding: 20px;
     padding-left: 0;
     border-radius: 3px;
